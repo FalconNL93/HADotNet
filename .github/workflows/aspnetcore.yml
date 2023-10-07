@@ -38,4 +38,4 @@ jobs:
       - name: Create the package
         run: dotnet pack --configuration Debug
       - name: Publish the package to GPR
-        run: dotnet nuget push HADotNet.Core/bin/Debug/*.nupkg
+        run: dotnet nuget push FalconNL93.HADotNet/bin/Debug/*.nupkg
