@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>FalconNL93.HADotNet</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>https://github.com/FalconNL93</Authors>
+    <Description>A Home Assistant library for .NET Standard that allows access to the Home Assistant external API.</Description>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Summary>A library for working with the Home Asstant API.</Summary>
+    <PackageTags>home-assistant external api library</PackageTags>
+    <Title>HADotNet Core Library</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.6.0</Version>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/FalconNL93/HADotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FalconNL93/HADotNet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <LangVersion>11</LangVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <FileVersion>1.6.0.0</FileVersion>
+    <Company>https://github.com/FalconNL93</Company>
+    <AssemblyName>FalconNL93.HADotNet</AssemblyName>
+    <RootNamespace>FalconNL93.HADotNet</RootNamespace>
+    <Product>FalconNL93.HADotNet</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\FalconNL93.HADotNet.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\FalconNL93.HADotNet.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

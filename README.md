@@ -1,5 +1,8 @@
 ﻿# HADotNet
 
+Forked from https://github.com/qJake/HADotNet
+
+
 [![Nuget](https://img.shields.io/nuget/v/HADotNet.Core?logo=nuget)](https://www.nuget.org/packages/HADotNet.Core/)
 ![ci-badge](https://github.com/qJake/HADotNet/workflows/CI%20Build/badge.svg)
 
