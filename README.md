@@ -1,6 +1,6 @@
 ﻿# HADotNet
 
-Forked from https://github.com/qJake/HADotNet
+Forked from https://github.com/qJake/HADotNet.
 
 
 [![Nuget](https://img.shields.io/nuget/v/HADotNet.Core?logo=nuget)](https://www.nuget.org/packages/HADotNet.Core/)
